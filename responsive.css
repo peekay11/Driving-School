@@ -1,0 +1,178 @@
+/* Small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 5%;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .logo-img {
+    width: 60px;
+  }
+
+  .brand-text {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .overlay p {
+    font-size: 15px;
+  }
+
+  .cta-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .location,
+  .tagline,
+  .courses,
+  .deadline,
+  .contact-section,
+  .testimonials-section,
+  .faq-section {
+    padding: 40px 5%;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .split-section {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  .split-text h2 {
+    font-size: 20px;
+  }
+
+  .faq-container summary {
+    font-size: 15px;
+  }
+
+  form {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  form button[type="submit"] {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: static;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .split-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Medium devices (tablets, 601px to 991px) */
+@media (min-width: 601px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    padding: 18px 6%;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    gap: 10px;
+  }
+
+  .logo-img {
+    width: 70px;
+  }
+
+  .brand-text {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .hero h2 {
+    font-size: 34px;
+  }
+
+  .overlay p {
+    font-size: 17px;
+  }
+
+  .cta-btn {
+    font-size: 15px;
+    padding: 12px 22px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .split-section {
+    padding: 50px 6%;
+    flex-direction: column;
+  }
+
+  .faq-container summary {
+    font-size: 16px;
+  }
+
+  form {
+    padding: 30px;
+  }
+
+  .split-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .split-section {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .split-text h2 {
+    font-size: 28px;
+  }
+}
